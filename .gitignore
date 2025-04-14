@@ -1,0 +1,5 @@
+logfile
+tiles/
+normalized_tiles/
+dataset/
+patient_ids_test.txt

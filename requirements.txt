@@ -1,5 +1,7 @@
+pandas
 openslide-bin
 openslide-python
 opencv-python
 requests
+spams-bin
 
