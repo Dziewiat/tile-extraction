@@ -4,4 +4,4 @@ openslide-python
 opencv-python
 requests
 spams-bin
-
+matplotlib
