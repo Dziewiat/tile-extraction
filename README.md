@@ -59,3 +59,17 @@ Input Variable name | Description
 #### Sort
 
     python sort_tiles.py normalized_tiles -d dataset
+
+### Script for files
+
+```
+#!/bin/bash
+
+mkdir -p zips
+
+for folder in */; do
+    folder_name="${folder%/}" 
+    zip -r "zips/${folder_name}.zip" "$folder"
+done
+
+echo "✔️ Spakowano $(ls zips | wc -l) folderów do katalogu zips/"
