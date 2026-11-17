@@ -73,3 +73,8 @@ for folder in */; do
 done
 
 echo "✔️ Spakowano $(ls zips | wc -l) folderów do katalogu zips/"
+
+
+
+# Funding
+The project was financed by the Polish National Agency for Academic Exchange within the Polish Returns Programme (PPN/PPO/2020/1/00028).
