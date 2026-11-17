@@ -73,7 +73,7 @@ for folder in */; do
 done
 
 echo "✔️ Spakowano $(ls zips | wc -l) folderów do katalogu zips/"
-
+```
 
 
 # Funding
